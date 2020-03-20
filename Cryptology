@@ -1,0 +1,17 @@
+Obfiscation - messing up data
+ 
+Session key - key being used to communicate
+ 
+ DES - block encryption 
+ 
+ RC4 - streaming cipher
+ 
+ Nobody uses ECB anymore.
+ 
+ AES - symmetrical
+ 
+Assymetric Encryption - two keys used
+    - Public key is sent out to everyone so they can send it to me.
+    - The private thing is the only thing that can decrypt what the public key sent
+    - Prime * Prime == SemiPrime
+    - 
