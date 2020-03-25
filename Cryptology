@@ -14,4 +14,46 @@ Assymetric Encryption - two keys used
     - Public key is sent out to everyone so they can send it to me.
     - The private thing is the only thing that can decrypt what the public key sent
     - Prime * Prime == SemiPrime
-    - 
+
+Diffie-Hellman
+    - Bob and Alice need the same key without mallory getting it.
+    - Bob and alice create random value
+    - Eve can see this value
+    - They exchange the values, and mix theirs, creating a unique value to them.
+
+PGP Encryption
+    - Generate random key, then encrypt it to send an encrypted message.
+    - Sometimes we use assymetric keys for the session ID but for the rest of the 
+      communnication we just use symmetiric
+
+Hash
+    - Creates integrity
+    - Takes large data and puts it into a fix size data
+    - hashes are one way
+    - collisions: creating some same value for two different data
+    - Types of hashes
+        - Message Digest 5 (MD5): Uses 128 bit hash
+        - SHA: 160 bit hash
+        - RIPEMD: 128, 160, ...
+    - Password storage
+    - HMAC generates hash with the key
+
+Steganography
+    - Taking data and hiding it in other data
+    - Don't even know that the data is there
+    - Sometimes this is used in pictures
+ 
+PKI: Public Key Infastructure
+    - A lot of things use certificates.
+    - Certificate Authority have root certificate that can sign and distribute other certificates.
+    - All the intermediate authorities they sign, like evrasign can do the same because they are 
+      trusted by the root keys.
+    - No standard except PKCS
+  
+Cryptographic attacks
+    - Store your passwords in hashes not clear text
+ 
+ Missede Questions on End Quiz
+  - Which symmetric block encryption has a variable key size between 32-448 bits?
+      - Blowfish is correct. DES has 56-bit keys, Triple DES has 168-bit keys, and AES has key sizes of 128, 192, or 256-bits.
+
