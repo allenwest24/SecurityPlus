@@ -1,0 +1,54 @@
+Identification - Who are you
+Authorization - What you are allowed to do / permissions.
+    - Set permissions to group and put specific users in different groups.
+
+3 Types of access controls:
+- Mandatory access control
+    - Labels
+    - Secret, top secret, etc
+- Discretionary Access Control
+    - Owner of the data defines access
+    - Roles
+- Role Based access control
+    - Access to resources is defined by a set of rules
+    - Groups
+    
+Access Control Lists
+- show access-list
+- Implicit deny
+
+Password Security
+- Complexity
+- Expiration
+- Password History
+
+Windows Local Security Policy
+- Tight security on anyone who works on this system
+
+Group Policy Objects
+- Manage for groups
+
+Linux File Permissions
+- CHMOD
+    - 1 read
+    - 2 write
+    - 4 execute
+- sudo chown root RunMe
+    - Change the owner of a file or folder
+    - sudo passwd
+- password for the account you are currently logged in on
+    - change the password
+
+Windows File Permissions
+- Create users
+- Put those users into groups
+- Give those groups NTFS permissions (per folder)
+
+
+
+
+
+
+
+
+    
