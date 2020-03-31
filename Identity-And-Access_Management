@@ -44,6 +44,24 @@ Windows File Permissions
 - Put those users into groups
 - Give those groups NTFS permissions (per folder)
 
+PAP
+- Password authentication protocol
+    - everything sent in the clear
+- CHAP
+    - key on both devies
+    - creates challenge message
+    - sends the hash and the challenge method
+    - compare return keys
+- INT Lan Manager
+    - similar to chap
+    - both sides have challenge methods
+- Kerberos
+    - very popular because of microsoft
+    - main controller (KDC)
+    - log in on your computer
+    - authentication service makes a TGT
+    - ticket granting service gets it and generates a session key to dictate where you can go
+    
 
 
 
