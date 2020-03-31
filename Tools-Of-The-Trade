@@ -1,0 +1,25 @@
+Ping
+    - ping www.totalsem.com
+        - resolved and got a reply from the website it pings
+        - if it resolves, it means our DNS is up and cooking
+    - ping www.google.com -4
+        - forcing the ping to us ipv 4
+    - do I have an intermitent connection
+        - ping -t www.google.com
+        - just keep running
+        - mainly for windows, linux already does this
+        
+Netstat
+    - If you need to know what sessions a particular host is running at any given moment
+    - 2 big questions when using
+        - Who am I talking to?
+            - netstat -n 
+            - we can see what we are connecting to
+            - makes us nervous when we have a connection to 443 when no tabs open
+        - Who's trying to talk to me
+            - netstat -a 
+            - show me all listening ports
+           
+Tracert
+    - 
+       
