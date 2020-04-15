@@ -21,5 +21,34 @@ Netstat
             - show me all listening ports
            
 Tracert
-    - 
+    - If you can't ping someone trcert is questionable excpet for one scenario
+    - if traceroute fails on first and second line, we know it is an in house problem. 
+    - Know your infastructure
+    
        
+ARP
+    - Address resolution protocol
+    - Resolve ethernet mac adress from an ip address
+    - dynamic and static addresses
+    - has someone put in an ARP posion?
+    - if an ARP posioner sneaks in you can tell by the manufacturer
+    
+ipconfig
+    - ip for linux
+    - who am i and what am I connected to
+    - know your network
+    - /all 
+    - find out ip address or mac address or network
+    
+nslookup
+    - DNS problems
+    - what is my DNS server?
+    - is this a DNS server
+    - change DNS se4ver
+    - can use dig in linux
+    
+netcat
+    - swiss army knife
+    - open and listen on ports
+    - netstat to see results
+    - agressive actions
