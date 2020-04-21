@@ -52,3 +52,56 @@ netcat
     - open and listen on ports
     - netstat to see results
     - agressive actions
+
+network scanners
+    - every system running on a network
+    - nmap
+    - zenmap
+    - advance port scanner
+    
+protocol analyzers
+    - essentially network analyzers
+    - wireshark is an example
+    - sniffer
+        - grab data going in and out
+        - save or makes a live feed 
+    - filter data 
+    - broadcast storm
+        - figure out where the storm is coming from by ip
+    - TCP dump
+        - sniffs every. single. packet.
+        
+SNMP
+    - simple network management protocol
+    - automates tasks
+    - apply agent
+        - software that allows snmp
+    - Managed device
+    - SNMP manager
+    - Network amangement station
+        - UDP 162
+    - management information base
+        - bult at factory
+        - databsse
+    - download command set that allows query
+    - get
+    - trap
+        - if something happens, let us know
+    - walk
+        - SNMPwalk - unix utility
+    - 3 versions
+        - 1 - good, no encryption
+        - 2 - expanded command set, had weak encryption
+        - 3 - robust encryption
+    - commuity, a group that devices belong to
+    
+Logs
+    - non-newtwork vs network
+        - non
+            - os
+            - application
+            - logons
+        - network
+            - os
+            - application
+    
