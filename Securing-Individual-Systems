@@ -1,0 +1,22 @@
+DoS
+    - volumetric attacks
+        - ping flood
+        - UDP flood
+    - protocol attacks
+        - create confusion
+        - SYN flooder
+            - sends SYNs creating a connection with no response
+            - most common
+    - application attacks
+        - slow loris attack 
+        - send conversations then dont reply
+        - SMURF attack
+            - sends out a spoofed IP address to everyone.
+        - Botnet
+            - zombie machines
+            
+        - Norse corps 
+        
+Host threats
+    - 
+    
