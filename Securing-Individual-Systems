@@ -14,9 +14,144 @@ DoS
             - sends out a spoofed IP address to everyone.
         - Botnet
             - zombie machines
-            
         - Norse corps 
         
 Host threats
-    - 
+    - spam
+        - mainly just annoying
+    - phishing
+        - spear phishing
+    - spim
+        - spam via instant messaging
+    - vishing
+        - phishing for voice
+    - clickjacking
+        - tricking you into clicking something
+    - typo swuatting
+        - people mistype urls
+    - privlege escalation
+       
+MITM
+    - session between computers
+    - get in the mdidle
+        - wireless network (usb wifi card)
+        - bluetooth
+        - NFC
+        - wired
+            - you need to spoof
+            - change our mac address to tell the 
+            - ettercap is a poisoner
+                - sniffs for hosts
+                - target 1, 2, lie to the switch
+    - once youre in the middle, what do you do
+        - gather data
+        - wireshark will help
+    - ARP posioning
+        
+System Resiliency
+    - scalability
+    - elasticity
+        - back and forth between large and small depending on needs
+    - redundancy
+        - backups
+    -  non-persistance
+        - snapshot - binary snapshots
+    - known state
+        - if something went wrong go back to when it was known to be working.
+    - Rollback
+        - drivers for windows
+        
+RAID
+    - Random Array Of Independent Devices
+    - RAID 0 
+        - increase speed of getting data
+        - many drives to access faster
+        - no data integrity
+    - RAID 1 
+        - even number of drives
+        - copies
+        - integrity without speed
+    - parody
+        - combining parts of data so that we know what is missing, should it be lost
+    - RAID 2 
+        - minimum of 3 harddrives
+        - dedicated parody drive with two distributed hardrives
+    - RAID 5 
+        - distribute data and parody to at least three drives
+    - RAID 6
+        - minimum of 4 drives
+        - two parodies distributed so that we can lose at least two drives
+    - RAID 01
+        - mirrorede data of striped
+    - RAID 10
+        - smae ish but revers
+    - integrity/speed
+    
+NAS and SAN
+    - Network attached storage
+        - RAIDed drives
+        - linx
+        - box
+        - runs over a standard network
+        - shows up as a share of the network
+    - Storage area network
+        - new hard drives
+        - boot functionality
+        - storage
+    
+Physical Hardening
+    - removable media controls
+        - no CDRoms or insertable stuff
+        - configure your OS
+        - not able to read removable media
+    - Data execution Protocol (DEP)
+        - advanced system setting -> performance
+        - not really important
+    - disabling ports
+        - USB mass sotrage driver support to stop USB access
+        
+RFI, EMI, and ESD
+    - Radio frequency interference (RFI)
+        - EMI if its radio
+    - Electromagnetic interference (EMI)
+        - protecting wires
+        - individual electric charges
+    - electrostatic discharge (ESD)
+        - everything has some electric charge
+        - keep everything at the same potential
+        
+Host Hardening
+    - disabling unnecessary services
+        - go to properties and disable
+    - use netstat to see
+    - not using default passwords
+    - disabling unnecessary user accounts
+    - least privlege
+    - patch management
+        - monitor/be aware of new patches
+        - test the patch
+        - evaluate
+        - deploy patch/ scheduling issues
+        - document
+    - anti malware
+        - training users
+        - procedures
+        - monitoring
+        - third party antimalware tools
+    - firewalls
+        - application level 
+        - white list of black list applications
+        
+Data and System Security
+    - permissions based issues
+    - data integrity
+    - speed/quick access
+    - high availability
+    - RAID 
+        - good for drives or storage of a system
+    - cluster
+        - instead of one computer, have mulitple systems that can do a specific thing.
+        - update each other the same. 
+    - load balancing
+    - virtualizing the server with a snapshot
     
