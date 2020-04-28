@@ -155,3 +155,15 @@ Data and System Security
     - load balancing
     - virtualizing the server with a snapshot
     
+Disk Encryption
+    - encrypt the data that is stored on the mass storage
+    - could slow servers down
+    - TPM (trusted platform model)
+        - if someone takes the harddrive but it isnt connected to this TPM is will not decrypt
+    - PGP disk
+    - bitlocker
+    
+Hardware/firmware
+    - full disk encryption (FDE)
+        - bitlocker
+    -  
