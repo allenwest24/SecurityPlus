@@ -166,4 +166,123 @@ Disk Encryption
 Hardware/firmware
     - full disk encryption (FDE)
         - bitlocker
-    -  
+    -  have to enable tpm for bitlocker to work.
+    - recovery key is needed in case the motherboard get destroyed
+    - SED - self encrypting device
+    - TPM
+        - secure boot checks the signature of everything
+        - hardware root of trust
+        - secure supply chain
+        - HSM hardware security module
+        
+Secure OS Types
+    - stadnard 3: MacOS, Windows, Linux
+    - Types
+        - Server OS
+            - Built-in fucntionality
+            - Windows
+            - Connections
+        - Workstation
+            - desktop version
+            - workhorse
+            - Ubuntu
+        - Embedded system
+            - appliance
+            - own OS
+        - Kiosk
+            - limited function
+            - small demonstrations like museum
+        - Mobile
+            - iOS
+            - Android
+    - Least functionality
+    
+Securing Peripherals
+    - smart devices and mobile devices
+    - wired vs wireless
+        - bluetooth
+    - WPS
+        - connect both
+    - hidden wifi
+    - set wifi sd card and piggyback or wirelessaccesspoint
+    - displays
+        - USB port
+        - can buy from hack5
+    - avoid backdoors
+    - turn off ports
+    - patch devices
+    
+Malware
+    - software that is running on your system
+    - virus
+        - software on your computer
+        - attach to other files
+        - spread
+        - activate
+    - Adware
+    - spyware
+    - trojan
+        - does a function while doing something bad in the background
+        - RAT needs remote turning on
+    - ransomeware/cryptomalware
+    - Logic Bomb
+        - sits on computer
+        - kicks off because of an event
+    - root kits/backdoors
+        - rootkit escalates privlege
+    - polymorphic malware
+        - changes itself to be undetectable
+    - armored virus
+        - makes it hard to underrstand what is happening in a virus
+    - keylogger
+    
+Analyzing output
+    - antimalware
+        - realtime setting
+        - scan
+    - host-based firewall
+        - access control list
+        - whitelist
+    - file integrity check
+        - verifies a file is in good order and ready to run
+        - hash files
+    - right application
+        - license check
+    
+IDS and IPS
+    - switch from host to applications
+    - firewall is first line of defense
+    - intrusion detection system is inside the network to see if something got past the firewall
+    - Active IDS is IPS
+    - intrusion prevention 
+    - IPS box
+    
+Automation strategies
+    - allows for repetition
+    - consistent
+    - ghost allows retoring of computers back to a specific image
+    - continuous monitoring
+    - automatic updates
+    - monitoring application whitelist
+    - application development
+    
+Data Destruction
+    - 3 levels
+        - clearing
+            - running erase
+            - wiping programs
+            - can still use the device
+        - purge
+            - external action to the device
+            - gauser
+            - crypto erase
+            - drive is useless
+        - destroy
+            - ruin media
+            - paper media
+            - disks
+            - burn paper
+            - pulping/mush
+            - shredding harddrives, literally
+            - pulverising
+            
