@@ -1,0 +1,89 @@
+LAN-Review
+    - Switches
+        - filter and forward data based on MAC addresses
+        - VLAN
+        - assign ports to create multiple switches with vlan
+        - Layer 2 separation
+        - flood protection with stp
+    - Routers 
+        - filter and forward based on IP adresses 
+        - layer 3 switch
+        - doorway between different network ids
+        - local area network/ gateway router
+        - firewall is run on gateway router to filter based on urls or ip addresses
+        
+Network Topologies Review
+    - actual organization of the network / how data move arounds
+    - broadcast domain is all computer that hear the brodcast being sent out by a machine (LAN)
+    - if we extend and break it up into multiple LAN in a WAN 
+    - TCP/IP 
+    - intranet is a private network that runs on ^
+    
+Network Zone Review
+    - computers connecting to switches (LAN)
+    - zone ^
+    - VLAN - one or more physical switches and chop up into multiple broadcast domains
+    - DMZ - two routers with firewalls and  servers in between
+    - wireless network
+    - guest network 
+    - virtualization zone - vms running in the computer
+    - airgap - networks are isolated from each other
+    
+Network Access Controls
+    - wireless network
+    - remote access
+    - VPN
+    - point to point protocol
+        - PPP
+        - transport layer protocol
+        - get address information
+        - rudementary security protocols
+    - EAP - framwork that handles authentication
+        - EAP-MD5 - hash with MD5
+        - PSK - predetermined symmetric keys
+        - TLS certificates
+        - TTLS only the server has the certificate
+        
+The Network Firewall
+    - to configure open the internet with that IP address
+    - stateless firewall is where they blokc by certain characteristics
+    - statefull looks at what is going on and decides what to do
+        - too many pings, block the pings
+    - implicit deny (deny unless manually authorized)
+    - block webistes
+    - application firewall is different
+    
+Proxy Servers
+    - Proxy is a box/ piece of software running on a computer that acts as an intermediary between two 
+      different devices having a session
+    - application specific
+    - forward and reverse
+        - forward proxy
+            - provides hashing ans content monitoring
+            - blokcs certain kinds of stuff
+            - encrypted tunnel with a vpn
+            - with TOR if picks a random node to change where you are coming from
+        - reverse proxy
+            - protect server from evil people
+            - load balancing
+            - encryption acceleration
+    - forward hides client, reverse hides the servers
+    
+Honeypots
+    - emulate a post or network to let someone in and track them
+    - emulates a server
+    - logs what is typed
+    - honeybot
+    - puts them in the DMZ
+    - honeynet
+    
+Virtual Private Networks
+    - want to connect to a LAN somewhere else
+    - end points
+        - vpn tunnel between two endpoints
+        - remote access vpn
+    - site to site vpn changes entire router to provide specific IP addresses
+    - split versus full tunneling
+    - 
+        
+    
