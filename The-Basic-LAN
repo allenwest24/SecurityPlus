@@ -84,6 +84,24 @@ Virtual Private Networks
         - remote access vpn
     - site to site vpn changes entire router to provide specific IP addresses
     - split versus full tunneling
-    - 
+    
+IPSec
+    - protocols that allow for any host to connect securely
+    - HMAC
+    - capsulating into a IPSec packet
+    - transport mode 
+    - tunnel mode
+
+NIDS and NIPS
+    - detection != prevention
+    
+SIEM
+    - agreggation - grabbing data
+        - sensory devices
+        - logs
+        - WORM - write once read many
+    - correlation - context
+    
+    
         
     
