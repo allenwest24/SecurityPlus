@@ -1,0 +1,104 @@
+Wireless Review
+    - 802.11 WAP to ethernet
+    - all devices have MAC address
+        - configure the WAP with a SSID
+        - broadcasted to network
+        - associate the MAC address with the SSID = BSSID
+        - client requests to connect and can be authenticcated by the clients mac address
+    - Common Ethernet Boradcast Domain is multiple WAPs connected by a ESSID to identify them
+    - above has no auth or integrity
+    - fix is WEP
+        - share key
+        - easily hacked mathmaticaly
+    - 802.11i new authentication
+    - AES encryption
+    - WPA
+    - WPA2
+    
+Living in Open Networks
+    - networks are absolutely open
+    - cookie cadger
+        - replay attack
+        - SSL stripping
+    - https everywhere
+        - extension
+        - block all insecure requests
+        - HSTS
+    - VPN
+        - enforce security 
+    
+Vulnetabilities with Wireless Access Point
+    - Rogue ap - roague access point like extra router
+    - evil twin if private
+    - 802.11 jammer
+        - denies ranges of channels
+        - jam a chennel and evil twin to replace the current with another and people will try to enter 
+          the password for the normal one
+        - can use deauth instead kinda
+        
+Cracking 802.11 - WEP
+    - Cracking WEP
+        - old school
+        - 50% still running this
+        - easily cracked
+        - IV attacks
+        - Aircrack-ng
+            - what network cards we have - $airmon-ng
+            - monitor on that device - $airmon-ng start wlan0
+            - go look and tell me what you see (wireless networks) - $airodump-ng wlan0mon
+            - ^ found mac address
+            - write the data it grabs - $airodump-ng -w dumpfile -c 6 --bssid ma:ca:dd:re:ss wlan0mon
+            - actually run the aircrack - $aircrack-ng dumpfile-01.cap
+            
+Cracking 802.11 - WPA
+    - WPA is a good encryption
+    - 4 way handshake
+    - disctionary attacks
+    - use airodump to find ahndshakes
+    
+Cracking 802.11 - WPS
+    - wfif proteccted setup
+    - button start
+    - hardware key to configure itself
+    - 8 digit key for use in initial key
+    
+Wireless Hardening
+    - Survey installation issues
+        - survey tools
+        - find ssids
+        - find mac addresses
+        - bands channels, etc
+        - heatmap
+    - maintaining existing wireless networks
+        - good documentation
+        - SSID turning off doesnt really matter
+        - mac filtering
+        - AP Isolation
+            - cant see each other when connected to the access point
+        - scanning
+    - monitor wireless networks
+        - Wireless intrusion protection system
+        - watches working protocols
+        - sensors around WAPs to check if anything weird is happening
+        - logs sent to WIDS
+    - define how to defend wireless clients
+        
+Wireless Access Points
+    - Think enterprise
+    - thick/thin - web configure/software sets up everything
+    - Atenna types
+        - omni directional : basketball
+        - dipole : for a single floor
+        - directional
+    - placement is important
+    - Band selection
+    
+Virtualization Basics
+    - virtualize computer into itself maybe as a different version
+    - system recovery
+    - hypervisor runs on top of OS
+    
+
+    
+    
+    
