@@ -98,7 +98,91 @@ Virtualization Basics
     - system recovery
     - hypervisor runs on top of OS
     
-
+Virtual Security
+    - Example in VirtualBox
+    - VM manager
+    - VMWare client
+    - Cloud-Based Virutalization
+    - Type 1 and 2 Hpervisor
+    - Virtualization itself is a security feature
+    - SandBoxing
+    - Network separation
+        - Separate from main network by creating switch
+    - Snapshots and backups
+    - Virtual threats
+        - anything that happens to normal machine can happen
+        - cloud based has a lot of recomendations for you.
+        - Security as a service
+        - VM Sprawl is when everyone sets up vms differently
+    - Hardening virutalization
+        - remove remnant data
+        - make good policies
+        - define user privleges
+        - patch everything
+        - cloud access security brokers
+            - intermediary between device and cloud 
+            - monitor everything
     
+Containers
+    - software edevelopment world
+    - libraries and binaries
+    - hypervisro virtualizes the software on it
+    - container is a vm for an application...kinda
+    - applications isolated from everything
+    - Docker
+    - affords one os with everything above the kernel
+    - security of isolation and only allow a specific fucntion
     
+Infastructure as a Service (IaaS)
+    - someone setsup infastructures as a service
+    - amazon web services
+    - IP, firewall, etc
+    
+platform as a Service (PaaS)
+    - Deals with the garbage associated with programming
+    - Heroku
+    - upload, give url, deploy
+    - web application
+    - can use from a command line
+    - Dynos
+    
+Software as a Service (SaaS)
+    - Buy a subscription
+    - gets rid of optical medium
+    - Microsoft Office 365
+    - Not necessarily downloading onto your machine
+    
+Deployment Methods
+    - Old days you have to buy a server to install a bunch of stuff
+    - Hosted application
+        - your computer in their facility
+        - our computer you put your application on it
+    - Eventually turned into the cloud
+    - Clouds
+        - private cloud
+        - public cloud
+        - hybrid cloud - half half
+        - Community cloud
+    - virtualizing our desktops
+        - VDE
+        - VDI
+    
+Static Hosts
+    - Internet of things
+    - device designed to do a specific thing
+    - network aware
+    - Industrial control systems (ICS)
+        - HVAC
+    - Long range falls into Supervisory Control and Data Acquisition (SCADA)
+        - Cellular LAN to provide autonomy
+    - How to secure
+        - User accounts and passwords
+        - turn off default services
+        - think about it like a normal host
+        - monitor
+        - Firmware updates manually usually
+    - Defense in depth
+        - Network segmentation
+        - Separate by VLANs
+        - With scada, we can use VPNs
     
