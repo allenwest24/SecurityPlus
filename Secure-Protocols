@@ -1,0 +1,12 @@
+Secure Applications and Protocols
+    - TCP/IP and the internet
+        - predate encryption
+        - no encrytion
+    - SSH protocol
+        - Putty
+        - initial key exchange
+        - symetric key to exchange data
+    - HTTP
+        - TLS - intermediary to do the encryption between website and you
+        
+Network Models (TBD)
