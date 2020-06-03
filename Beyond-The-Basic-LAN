@@ -186,3 +186,162 @@ Static Hosts
         - Separate by VLANs
         - With scada, we can use VPNs
     
+Mobile Connectivity
+    - SATCOM
+        - sattellite communication
+        - snapons for your smartphone
+    - Bluetooth
+    - Near-field Communication
+        - physical contact
+        - similair to bluetooth otherrwise
+        - Kinda like apple pay tap
+    - ANT
+        - no security issues thus far
+        - very slow
+    - infared transmitters
+        - built in androids
+        - universal remotes
+    - USB
+        - USB on-the-go
+        - typically one way, ^^ is two way
+    - Wifi and tethering
+        - other modes to 802.11
+        - wifi direct
+            - standard wireless attack vulnerable
+        - tethering
+            - good when wired
+            - acts as a wireless access point if not encrypted
+    
+Deploying Mobile Devices
+    - theyre everywhere
+    - very handy
+    - mobile device management tools
+        - turn off cameras
+        - turn off screen captures
+    - great due to applications
+    - application management
+    - personal use vs corporate use
+    - mobile deployment options
+        - Corporate owned business only
+            - company owned and dictated
+        - Corporate owned personally enabled
+        - Choose your own device
+        - bring your own device
+            - control is hard
+        
+Mobile Enforcement
+    - Evil actions people can do to your devices
+        - sideloading
+            - getting around main app store
+        - carrier unlocking
+            - can take part in third party stuff
+        - rooting(android)/ jailbreaking(apple)
+            - by default dont have root but if you get it you can install cool stuff
+            - custom firmware
+            - no more updates
+    - Big brother (what should we monitor on devices we hand out)
+        - firmware OTA updates
+            - turn off
+        - camera use
+        - SMS/MMS
+            - what is being sent
+            - cost
+        - External Media
+            - have they plugged in external storage device?
+        - Recording mic and GPS tagging
+            - find my phone
+        - Payment methods
+            - bank account connected
+            - monitor
+        
+Mobile Device Management
+    - Define what application can be installed
+    - monitor functions
+    - content management
+        - dtabaase
+        - apps
+        - documents
+    - geolocation
+        - where is someone
+        - geofencing triggers by location
+    - passwords and pins
+        - recovery
+    - biometrics
+    - screen locks
+    - remote wipe
+        - if lost
+    - Mobile Application management
+        - app management
+        - context aware management
+        - storage segmentation
+        - full device encryption
+    - containerization
+        - control applications
+       
+Physical Controls
+    - Deterrent controls
+        - keep out from infastructure
+        - lighting
+        - signs
+        - security guards
+    - Preventative control
+        - fence
+        - barricades
+        - K ratings
+            - fence to stop vehicles
+        - mantrap
+            - checked, locked, acccess
+        - air gaps
+            - for cabling
+            - VPN or VLANs instead
+        - Safe
+        - Locked cabinets
+        - faraday cages
+            - blocks radios
+        - locks
+        - Key management
+        - Cable locks
+        - Screen Filters
+    - Detective control
+        - alarms
+        - cameras
+        - motion detectors
+        - infared detectors
+        - log files
+    - Compensating and corrective controls
+        - adapting to failure
+    
+HVAC
+    - Heating ventalation and air conditioning
+    - cooler the better
+    - office environment
+        - good for people
+    - Server rooms
+        - good for computer
+    - Infared camera
+        - search for heat sources
+        - find leaks
+    - Zone based HVAC
+    - Hot and cold Aisles
+    - contain system
+    - Securing HVAC
+        - run on computers
+        - need their own security
+        - leave air gap to network
+        - vlan
+        - MAC filtering
+            - access
+        - Remote monitoring
+            - try to ensure VPNs are used
+            
+Fire Supression
+    - Fire extinguisher classes
+        - Class A: meant for wood
+        - Class B: oil and gases
+        - Class C: elcetronics
+        - Class D: explosives
+    - Dont use water
+        - Halon
+        - Today: FM-200
+    - Seal off the server room
+    - Turn off power
