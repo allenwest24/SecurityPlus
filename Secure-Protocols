@@ -10,3 +10,51 @@ Secure Applications and Protocols
         - TLS - intermediary to do the encryption between website and you
         
 Network Models (TBD)
+    - OSI seven layer model
+        - Physical layer
+        - data link layer - mac address, siwtch network card
+        - Network layer - IP addresses
+        - transport - dissassembles and pushes packets
+        - session - good connections
+        - presentation - old and weird
+        - Application
+    - TCP/IP
+        - Network interface 
+        - internet
+        - transport
+        - application
+        
+Know your protocols
+    - IP addressing
+    - private ip address
+        - start with 10
+        - 192.168
+    - NAT
+    - IPV6 is newer and super long
+    - 128 bits
+    - TCP - connection oriented protocol
+    - Three-way handshake
+    - UDP
+        - connectionless
+        - lots of packets
+    - ICMP
+        - maitnenance of networks
+        - ARP and ping
+    
+Ports
+    - 80 http
+    - 443 https
+    - 23 telnet
+    - 22 ssh
+    - 20/21 FTPs
+    - 22 SCP
+    - 69 tftp
+    - 445 SMB
+    - 25 smtb
+    - 143 IMAP
+    - 53 DNS
+    - Theres a lot more, just look it up if you need it essentially
+    
+Transport Layer Security (TLS)
+    - 
+    
