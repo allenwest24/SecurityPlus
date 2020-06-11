@@ -56,5 +56,57 @@ Ports
     - Theres a lot more, just look it up if you need it essentially
     
 Transport Layer Security (TLS)
-    - 
+    - Website need security
+    - SSL is super old
+    - orginally ffor https
+    - want to make a secure connection between some server and some client
+    - Secure connection
+        - Encryption
+        - Symmetric is faster
+        - Key exchange
+        - Authentication
+        - HMAC
+    - SSL is now used all over the internet
+    
+Internet Service Hardening
+    - Use secure protocols
+    - DNS
+        - Been around since the beginning of the itnernet
+        - port 53
+        - Nonsecure protocol
+        - Way it works
+            - My computer needs an ip add
+            - goes to its DNS server
+            - marches through dns hierarhcy
+            - tries to resolve with ip info pass down to client
+            - Other computer might act as a spoofer
+        - DNSSEC
+            - forces authentication
+            - uses pair of keys
+            - public signing key
+            - gets rid of MITM
+            - not encryption, just authentication
+            - popular for public dns servers
+    - Email
+        - smtp server
+        - data shoud be sent with encryption and auth
+    - USE SUPPORT PROTOCOLS
+    
+Protecting ypur servers
+    - DMZ between Server router and internet
+    - firewall
+    - SSL accelerated
+    
+Secure code development
+    - Waterfall is old school
+    - Agile
+    - Devops
+    - Secure DevOps
+        - Security automation tools
+        - always looking for vulnerabilities
+        - change management/version control
+        - baselining security objectives
+        - Consider immutable systems
+        
+
     
