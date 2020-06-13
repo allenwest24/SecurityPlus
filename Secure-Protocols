@@ -108,5 +108,25 @@ Secure code development
         - baselining security objectives
         - Consider immutable systems
         
-
+Secure Deployment Concepts
+    - Compiled vs runtime code
+    - proper error handeling
+    - Validating input
+    - normalization
+        - indexing to create efficient data bases
+    - storage
+    - encryption
+    - obfuscation
+    - dead code/ reused code
+    - memory management
+    - third party libraries
+    - data exposure
     
+Code Quality and testing
+    - two types of tests
+        - static code analyzing
+        - dynamic analysis
+    - staging
+    - stress test
+    - sandbox
+    - deployment or dporuductiona after model verification
