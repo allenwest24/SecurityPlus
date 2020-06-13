@@ -1,0 +1,112 @@
+Vulnerability Scanning Tools
+    - Can't know your are safe until you check
+    - today infastructure is complex
+    - tracert
+        - shows all addresses and ips
+    - advanced IP scanner
+        - see systems
+        - find names and what its running
+    - nmap is an example of the above
+    - Microsoft basline security analyzer
+    - Nessus
+    - Nexpose
+    - OpenVAS
+ 
+Vulnerability Scanning Assessment
+    - credential vs non-credentialed
+    - inside vs outsider
+    - Intrusive or non-intrusive
+    - misconfigurations
+    - watch out for false positives
+    - Compliance
+    - PCIDSS
+    
+Social Engineering Principles
+    - refers to psychological manipulation
+    - people tricking people
+    - authority
+    - intimidation
+    - consensus
+    - scarcity
+    - familiarity
+    - trust
+    - urgency
+    
+Social Engineering Attacks
+    - physical attacks
+    - virtual attacks
+    - tailgating
+    - unattended computers
+    - unauthorized access
+    - shoulder surfing
+    - phishing
+    - spear phishing
+    - whaling
+        - directed towardxs high ups in the company
+    - hoax
+    - watering hole attack
+    
+Attacking Web Sites
+    - Read log files
+    - common log format
+        - IP
+        - ident'
+        - authuser
+        - date time
+        - request
+        - status
+        - bite size
+    - cPanel
+    - XSS
+        - run a script from another site
+    - XML injections
+        - malicious add ons
+        - added into a form
+    
+Attacking Applications
+    - Web apps
+    - injections
+        - code injections
+        - input injections
+        - SQL
+        - LDAP
+    - Buffer overflow
+    - Integer overflow
+    
+Exploiting a Target
+    - Pentests
+        - get auth
+        - discover vulns
+        - exploit vulns
+    - Attack model
+        - white box
+        - black box
+        - gray box
+    - passive discover
+    - semi passive discovery
+    - active discovery
+    - metasploit 
+    - banner grabbing
+    - pivot
+        - initial attack to allow us to do more stuff
+    - persistence
+    - privlege excalation
+    - metasploitable
+    
+Vulnerability Impact
+    - Embedded systems
+        - immutable
+        - need patches, firewalls
+        - tucked away so we forget
+    - Vendor support
+        - obsolete
+        - out of business
+        - cant update
+    - weak configuration
+        - default
+    - vulnerable bsuiness processes
+        - sotring non-essential information
+    - memory/buffer vulnerabilities
+        - resource exhaustion or run out of memory
+        - memory leak
+        - overflows       
