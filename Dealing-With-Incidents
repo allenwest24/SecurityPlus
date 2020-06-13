@@ -1,0 +1,65 @@
+Incident Response
+    - They will take place
+    - Computer Incident Response Process
+        - Preparation
+        - Reporting
+        - Practice Scenerios
+        - Indentification
+        - Conatainment
+        - Eradication
+        - Recovery
+        - Documentation
+    - Incident response plan
+        - CIRT
+        - Document Incident types/dategory definitions
+        - roles and responsibilities
+        - reporting requirements/escalation
+        - practice
+        
+Digital Forensics
+    - art of collectiong storing and quantifying
+    - Legal hold
+    - chain of custody
+        - gathering evidence
+        - data is high integrity
+        - evidence tracking forms
+        - define the evidence
+        - document collection method
+        - date/time colelcted
+        - people gathering evidence
+        - fucntion of person handling evidecne
+        - location of evidence
+    - order of volatility
+        - memory
+        - data on the disc
+        - write block
+        - remotely logged data
+        - backups
+    - forensic data acquisition
+        - capture the system image
+        - network traffic and logs
+        - capture video
+        - take hashes
+        - take screenshots
+        - interview witnesses
+        - track man hours
+        
+Contingency Planning
+    - shit happens
+    - disaster recovery
+    - business continuity
+    - backup site
+        - cold
+        - warm
+        - hot
+    - Order of restoration
+    - Practice
+    - Failover
+    
+Backups
+    - full backups
+    - archive attribute backups when changed
+    - differential backup
+    - incremental backup
+    - snapshots
+    - cloud backups
